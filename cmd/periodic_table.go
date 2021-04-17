@@ -26,16 +26,22 @@ func printElementData(inputElement string, periodicTable map[string]interface{})
 	if _, ok := periodicTable[element]; ok {
 		symbol := periodicTable[element].(map[string]interface{})["Symbol"]
 		phase := periodicTable[element].(map[string]interface{})["Phase"]
-		fmt.Printf("Element: %s (%s) - %s \n\n", element, symbol, phase)
-		fmt.Printf("AtomicMass: %v\n", periodicTable[element].(map[string]interface{})["AtomicMass"])
-		fmt.Printf("AtomicNumber: %v\n", periodicTable[element].(map[string]interface{})["AtomicNumber"])
-		fmt.Printf("Density: %v\n", periodicTable[element].(map[string]interface{})["Density"])
+		elementType := periodicTable[element].(map[string]interface{})["Type"]
+		fmt.Printf("Element: %s (%s) - %s, %s \n\n", element, symbol, phase, strings.ToLower(elementType.(string)))
 		fmt.Printf("Protons: %v\n", periodicTable[element].(map[string]interface{})["NumberofProtons"])
 		fmt.Printf("Electrons: %v\n", periodicTable[element].(map[string]interface{})["NumberofElectrons"])
-		fmt.Printf("Neutrons: %v\n", periodicTable[element].(map[string]interface{})["NumberofNeutrons"])
+		fmt.Printf("Neutrons: %v\n\n", periodicTable[element].(map[string]interface{})["NumberofNeutrons"])
+		fmt.Printf("Period: %v\n", periodicTable[element].(map[string]interface{})["Period"])
+		fmt.Printf("Group: %v\n\n", periodicTable[element].(map[string]interface{})["Group"])
+		fmt.Printf("AtomicMass: %v\n", periodicTable[element].(map[string]interface{})["AtomicMass"])
+		fmt.Printf("AtomicNumber: %v\n", periodicTable[element].(map[string]interface{})["AtomicNumber"])
 		fmt.Printf("AtomicRadius: %v\n", periodicTable[element].(map[string]interface{})["AtomicRadius"])
+		fmt.Printf("Density: %v\n", periodicTable[element].(map[string]interface{})["Density"])
 		fmt.Printf("SpecificHeat: %v\n", periodicTable[element].(map[string]interface{})["SpecificHeat"])
 		fmt.Printf("Electronegativity: %v\n", periodicTable[element].(map[string]interface{})["Electronegativity"])
+		fmt.Printf("MeltingPoint: %v\n", periodicTable[element].(map[string]interface{})["MeltingPoint"])
+		fmt.Printf("BoilingPoint: %v\n", periodicTable[element].(map[string]interface{})["BoilingPoint"])
+		fmt.Printf("FirstIonization: %v\n", periodicTable[element].(map[string]interface{})["FirstIonization"])
 	} else {
 		fmt.Println("Element", element, "does not exist (yet)")
 	}
