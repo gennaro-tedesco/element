@@ -1,7 +1,6 @@
 package cmd
 
 import (
-	"fmt"
 	"os"
 
 	"github.com/spf13/cobra"
@@ -11,11 +10,12 @@ var cwd, _ = os.Getwd()
 
 var rootCmd = &cobra.Command{
 	Use:   "boilit",
+	Args:  cobra.ExactArgs(1),
 	Short: "the periodic table on the command line",
 	Long:  `the periodic table on the command line`,
 	Run: func(cmd *cobra.Command, args []string) {
-		m := getPeriodicTableData()
-		fmt.Println(m["Hydrogen"].(map[string]interface{})["FirstIonization"])
+		pt := getPeriodicTableData()
+		printElementData(args[0], pt)
 	},
 }
 
