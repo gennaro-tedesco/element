@@ -25,7 +25,6 @@ func Execute() {
 
 func init() {
 	rootCmd.SetHelpTemplate(getRootHelp())
-	// rootCmd.Flags().StringP("path", "p", cwd, "root path of plugin directory")
 }
 
 func getRootHelp() string {
@@ -37,6 +36,9 @@ Arguments:
 
 Usage:
   element name [flag]
+
+Available Commands:
+  random  print information of a randomly chosen element
 
 Flags:
   -h, --help   help for boilit
