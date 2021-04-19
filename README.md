@@ -1,4 +1,7 @@
 <h1 align="center">
+  <br>
+  <img width="300" height="300" src="logo.png">
+  <br>
   element
 </h1>
 
@@ -27,9 +30,9 @@ go get -u -v github.com/gennaro-tedesco/element
 ```
 
 ## Usage
-<insert gif>
+![demo](https://user-images.githubusercontent.com/15387611/115306527-46b6fc00-a168-11eb-9b20-9fd437a7870b.gif)
 
-Using `element` is element-ary! Run `element` and use the autocompletion menu to select the item to display properties of! Or, if you already know, run `element <element name>` directly.
+Using `element` is element-ary! Run `element` and use the autocompletion menu to select the item to display properties of! Or, if you already know, run `element <name>` directly.
 
 Check `element -h` for help and examples.
 
