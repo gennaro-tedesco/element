@@ -33,13 +33,6 @@ Using `element` is element-ary! Run `element` and use the autocompletion menu to
 
 Check `element -h` for help and examples.
 
-| command         | description                                | note
-|:--------------- |:------------------------------------------ |:
-| element         | prompt autocompletion menu to select from  | `<C-d>` to quit, `<Up/Down>` to scroll
-| element iron    | directly display properties of iron        |
-| element random  | display properties of a random element     |
-| element table   | display the periodic table in ascii format |
-| element version | print current program version              |
 
 ### Extras
 <details>
@@ -57,6 +50,14 @@ Check `element -h` for help and examples.
 
   <img alt="table" src="https://user-images.githubusercontent.com/15387611/115287360-7a862780-a150-11eb-9d6d-99a792d22610.png">
 </details>
+
+| command         | description                                | note
+|:--------------- |:------------------------------------------ |:--------------------------------------
+| element         | prompt autocompletion menu to select from  | `<C-d>` to quit, `<Up/Down>` to scroll
+| element iron    | directly display properties of iron        |
+| element random  | display properties of a random element     |
+| element table   | display the periodic table in ascii format |
+| element version | print current program version              |
 
 
 ## Feedback
