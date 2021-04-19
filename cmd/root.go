@@ -45,15 +45,22 @@ func getRootHelp() string {
 element: the periodic table on the command line
 
 Arguments:
-  name    the name of the element to show information of
+  name  the element to show information of
 
 Usage:
-  element name [flag]
+  element [cmd] [name]
+
+  - element: show prompt with autocompletion to select from
+  - element <name>: show properties of element <name>
+  - element random: show properties of a random element
+  - element version: print current version
 
 Available Commands:
-  random  print information of a randomly chosen element
+  random   print information of a randomly chosen element
+  table    print periodic table in ascii format
+  version  print current program version
 
 Flags:
-  -h, --help   help for boilit
+  -h, --help   show help page
 `
 }
