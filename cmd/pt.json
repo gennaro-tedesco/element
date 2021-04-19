@@ -26,7 +26,8 @@
     "Year": 1766,
     "SpecificHeat": 14.304,
     "NumberofShells": 1,
-    "NumberofValence": 1
+    "NumberofValence": 1,
+    "ElectronicConfiguration": "1s1"
   },
   "Helium": {
     "AtomicNumber": 2,
@@ -55,7 +56,8 @@
     "Year": 1868,
     "SpecificHeat": 5.193,
     "NumberofShells": 1,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "1s2"
   },
   "Lithium": {
     "AtomicNumber": 3,
@@ -84,7 +86,8 @@
     "Year": 1817,
     "SpecificHeat": 3.582,
     "NumberofShells": 2,
-    "NumberofValence": 1
+    "NumberofValence": 1,
+    "ElectronicConfiguration": "[He] 2s1"
   },
   "Beryllium": {
     "AtomicNumber": 4,
@@ -113,7 +116,8 @@
     "Year": 1798,
     "SpecificHeat": 1.825,
     "NumberofShells": 2,
-    "NumberofValence": 2
+    "NumberofValence": 2,
+    "ElectronicConfiguration": "[He] 2s2"
   },
   "Boron": {
     "AtomicNumber": 5,
@@ -142,7 +146,8 @@
     "Year": 1808,
     "SpecificHeat": 1.026,
     "NumberofShells": 2,
-    "NumberofValence": 3
+    "NumberofValence": 3,
+    "ElectronicConfiguration": "[He] 2s2 2p1"
   },
   "Carbon": {
     "AtomicNumber": 6,
@@ -171,7 +176,8 @@
     "Year": null,
     "SpecificHeat": 0.709,
     "NumberofShells": 2,
-    "NumberofValence": 4
+    "NumberofValence": 4,
+    "ElectronicConfiguration": "[He] 2s2 2p2"
   },
   "Nitrogen": {
     "AtomicNumber": 7,
@@ -200,7 +206,8 @@
     "Year": 1772,
     "SpecificHeat": 1.04,
     "NumberofShells": 2,
-    "NumberofValence": 5
+    "NumberofValence": 5,
+    "ElectronicConfiguration": "[He] 2s2 2p3"
   },
   "Oxygen": {
     "AtomicNumber": 8,
@@ -229,7 +236,8 @@
     "Year": 1774,
     "SpecificHeat": 0.918,
     "NumberofShells": 2,
-    "NumberofValence": 6
+    "NumberofValence": 6,
+    "ElectronicConfiguration": "[He] 2s2 2p4"
   },
   "Fluorine": {
     "AtomicNumber": 9,
@@ -258,7 +266,8 @@
     "Year": 1886,
     "SpecificHeat": 0.824,
     "NumberofShells": 2,
-    "NumberofValence": 7
+    "NumberofValence": 7,
+    "ElectronicConfiguration": "[He] 2s2 2p5"
   },
   "Neon": {
     "AtomicNumber": 10,
@@ -287,7 +296,8 @@
     "Year": 1898,
     "SpecificHeat": 1.03,
     "NumberofShells": 2,
-    "NumberofValence": 8
+    "NumberofValence": 8,
+    "ElectronicConfiguration": "[He] 2s2 2p6"
   },
   "Sodium": {
     "AtomicNumber": 11,
@@ -316,7 +326,8 @@
     "Year": 1807,
     "SpecificHeat": 1.228,
     "NumberofShells": 3,
-    "NumberofValence": 1
+    "NumberofValence": 1,
+    "ElectronicConfiguration": "[Ne] 3s1"
   },
   "Magnesium": {
     "AtomicNumber": 12,
@@ -345,7 +356,8 @@
     "Year": 1755,
     "SpecificHeat": 1.023,
     "NumberofShells": 3,
-    "NumberofValence": 2
+    "NumberofValence": 2,
+    "ElectronicConfiguration": "[Ne] 3s2"
   },
   "Aluminum": {
     "AtomicNumber": 13,
@@ -374,7 +386,8 @@
     "Year": 1827,
     "SpecificHeat": 0.897,
     "NumberofShells": 3,
-    "NumberofValence": 3
+    "NumberofValence": 3,
+    "ElectronicConfiguration": "[Ne] 3s2 3p1"
   },
   "Silicon": {
     "AtomicNumber": 14,
@@ -403,7 +416,8 @@
     "Year": 1824,
     "SpecificHeat": 0.705,
     "NumberofShells": 3,
-    "NumberofValence": 4
+    "NumberofValence": 4,
+    "ElectronicConfiguration": "[Ne] 3s2 3p2"
   },
   "Phosphorus": {
     "AtomicNumber": 15,
@@ -432,7 +446,8 @@
     "Year": 1669,
     "SpecificHeat": 0.769,
     "NumberofShells": 3,
-    "NumberofValence": 5
+    "NumberofValence": 5,
+    "ElectronicConfiguration": "[Ne] 3s2 3p3"
   },
   "Sulfur": {
     "AtomicNumber": 16,
@@ -461,7 +476,8 @@
     "Year": null,
     "SpecificHeat": 0.71,
     "NumberofShells": 3,
-    "NumberofValence": 6
+    "NumberofValence": 6,
+    "ElectronicConfiguration": "[Ne] 3s2 3p4"
   },
   "Chlorine": {
     "AtomicNumber": 17,
@@ -490,7 +506,8 @@
     "Year": 1774,
     "SpecificHeat": 0.479,
     "NumberofShells": 3,
-    "NumberofValence": 7
+    "NumberofValence": 7,
+    "ElectronicConfiguration": "[Ne] 3s2 3p5"
   },
   "Argon": {
     "AtomicNumber": 18,
@@ -519,7 +536,8 @@
     "Year": 1894,
     "SpecificHeat": 0.52,
     "NumberofShells": 3,
-    "NumberofValence": 8
+    "NumberofValence": 8,
+    "ElectronicConfiguration": "[Ne] 3s2 3p6"
   },
   "Potassium": {
     "AtomicNumber": 19,
@@ -548,7 +566,8 @@
     "Year": 1807,
     "SpecificHeat": 0.757,
     "NumberofShells": 4,
-    "NumberofValence": 1
+    "NumberofValence": 1,
+    "ElectronicConfiguration": "[Ar] 4s1"
   },
   "Calcium": {
     "AtomicNumber": 20,
@@ -577,7 +596,8 @@
     "Year": 1808,
     "SpecificHeat": 0.647,
     "NumberofShells": 4,
-    "NumberofValence": 2
+    "NumberofValence": 2,
+    "ElectronicConfiguration": "[Ar] 4s2"
   },
   "Scandium": {
     "AtomicNumber": 21,
@@ -606,7 +626,8 @@
     "Year": 1878,
     "SpecificHeat": 0.568,
     "NumberofShells": 4,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Ar] 3d1 4s2"
   },
   "Titanium": {
     "AtomicNumber": 22,
@@ -635,7 +656,8 @@
     "Year": 1791,
     "SpecificHeat": 0.523,
     "NumberofShells": 4,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Ar] 3d2 4s2"
   },
   "Vanadium": {
     "AtomicNumber": 23,
@@ -664,7 +686,8 @@
     "Year": 1801,
     "SpecificHeat": 0.489,
     "NumberofShells": 4,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Ar] 3d3 4s2"
   },
   "Chromium": {
     "AtomicNumber": 24,
@@ -693,7 +716,8 @@
     "Year": 1797,
     "SpecificHeat": 0.449,
     "NumberofShells": 4,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Ar] 3d5 4s1"
   },
   "Manganese": {
     "AtomicNumber": 25,
@@ -722,7 +746,8 @@
     "Year": 1774,
     "SpecificHeat": 0.479,
     "NumberofShells": 4,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Ar] 3d5 4s2"
   },
   "Iron": {
     "AtomicNumber": 26,
@@ -751,7 +776,8 @@
     "Year": null,
     "SpecificHeat": 0.449,
     "NumberofShells": 4,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Ar] 3d6 4s2"
   },
   "Cobalt": {
     "AtomicNumber": 27,
@@ -780,7 +806,8 @@
     "Year": 1735,
     "SpecificHeat": 0.421,
     "NumberofShells": 4,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Ar] 3d7 4s2"
   },
   "Nickel": {
     "AtomicNumber": 28,
@@ -809,7 +836,8 @@
     "Year": 1751,
     "SpecificHeat": 0.444,
     "NumberofShells": 4,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Ar] 3d8 4s2"
   },
   "Copper": {
     "AtomicNumber": 29,
@@ -838,7 +866,8 @@
     "Year": null,
     "SpecificHeat": 0.385,
     "NumberofShells": 4,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Ar] 3d10 4s1"
   },
   "Zinc": {
     "AtomicNumber": 30,
@@ -867,7 +896,8 @@
     "Year": null,
     "SpecificHeat": 0.388,
     "NumberofShells": 4,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Ar] 3d10 4s2"
   },
   "Gallium": {
     "AtomicNumber": 31,
@@ -896,7 +926,8 @@
     "Year": 1875,
     "SpecificHeat": 0.371,
     "NumberofShells": 4,
-    "NumberofValence": 3
+    "NumberofValence": 3,
+    "ElectronicConfiguration": "[Ar] 3d10 4s2 4p1"
   },
   "Germanium": {
     "AtomicNumber": 32,
@@ -925,7 +956,8 @@
     "Year": 1886,
     "SpecificHeat": 0.32,
     "NumberofShells": 4,
-    "NumberofValence": 4
+    "NumberofValence": 4,
+    "ElectronicConfiguration": "[Ar] 3d10 4s2 4p2"
   },
   "Arsenic": {
     "AtomicNumber": 33,
@@ -954,7 +986,8 @@
     "Year": 1250,
     "SpecificHeat": 0.329,
     "NumberofShells": 4,
-    "NumberofValence": 5
+    "NumberofValence": 5,
+    "ElectronicConfiguration": "[Ar] 3d10 4s2 4p3"
   },
   "Selenium": {
     "AtomicNumber": 34,
@@ -983,7 +1016,8 @@
     "Year": 1817,
     "SpecificHeat": 0.321,
     "NumberofShells": 4,
-    "NumberofValence": 6
+    "NumberofValence": 6,
+    "ElectronicConfiguration": "[Ar] 3d10 4s2 4p4"
   },
   "Bromine": {
     "AtomicNumber": 35,
@@ -1012,7 +1046,8 @@
     "Year": 1826,
     "SpecificHeat": 0.474,
     "NumberofShells": 4,
-    "NumberofValence": 7
+    "NumberofValence": 7,
+    "ElectronicConfiguration": "[Ar] 3d10 4s2 4p5"
   },
   "Krypton": {
     "AtomicNumber": 36,
@@ -1041,7 +1076,8 @@
     "Year": 1898,
     "SpecificHeat": 0.248,
     "NumberofShells": 4,
-    "NumberofValence": 8
+    "NumberofValence": 8,
+    "ElectronicConfiguration": "[Ar] 3d10 4s2 4p6"
   },
   "Rubidium": {
     "AtomicNumber": 37,
@@ -1070,7 +1106,8 @@
     "Year": 1861,
     "SpecificHeat": 0.363,
     "NumberofShells": 5,
-    "NumberofValence": 1
+    "NumberofValence": 1,
+    "ElectronicConfiguration": "[Kr] 5s1"
   },
   "Strontium": {
     "AtomicNumber": 38,
@@ -1099,7 +1136,8 @@
     "Year": 1808,
     "SpecificHeat": 0.301,
     "NumberofShells": 5,
-    "NumberofValence": 2
+    "NumberofValence": 2,
+    "ElectronicConfiguration": "[Kr] 5s2"
   },
   "Yttrium": {
     "AtomicNumber": 39,
@@ -1128,7 +1166,8 @@
     "Year": 1794,
     "SpecificHeat": 0.298,
     "NumberofShells": 5,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Kr] 4d1 5s2"
   },
   "Zirconium": {
     "AtomicNumber": 40,
@@ -1157,7 +1196,8 @@
     "Year": 1789,
     "SpecificHeat": 0.278,
     "NumberofShells": 5,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Kr] 4d2 5s2"
   },
   "Niobium": {
     "AtomicNumber": 41,
@@ -1186,7 +1226,8 @@
     "Year": 1801,
     "SpecificHeat": 0.265,
     "NumberofShells": 5,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Kr] 4d4 5s1"
   },
   "Molybdenum": {
     "AtomicNumber": 42,
@@ -1215,7 +1256,8 @@
     "Year": 1778,
     "SpecificHeat": 0.251,
     "NumberofShells": 5,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Kr] 4d5 5s1"
   },
   "Technetium": {
     "AtomicNumber": 43,
@@ -1244,7 +1286,8 @@
     "Year": 1937,
     "SpecificHeat": null,
     "NumberofShells": 5,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Kr] 4d5 5s2"
   },
   "Ruthenium": {
     "AtomicNumber": 44,
@@ -1273,7 +1316,8 @@
     "Year": 1844,
     "SpecificHeat": 0.238,
     "NumberofShells": 5,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Kr] 4d7 5s1"
   },
   "Rhodium": {
     "AtomicNumber": 45,
@@ -1302,7 +1346,8 @@
     "Year": 1803,
     "SpecificHeat": 0.243,
     "NumberofShells": 5,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Kr] 4d8 5s1"
   },
   "Palladium": {
     "AtomicNumber": 46,
@@ -1331,7 +1376,8 @@
     "Year": 1803,
     "SpecificHeat": 0.244,
     "NumberofShells": 5,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Kr] 4d10"
   },
   "Silver": {
     "AtomicNumber": 47,
@@ -1360,7 +1406,8 @@
     "Year": null,
     "SpecificHeat": 0.235,
     "NumberofShells": 5,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Kr] 4d10 5s1"
   },
   "Cadmium": {
     "AtomicNumber": 48,
@@ -1389,7 +1436,8 @@
     "Year": 1817,
     "SpecificHeat": 0.232,
     "NumberofShells": 5,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Kr] 4d10 5s2"
   },
   "Indium": {
     "AtomicNumber": 49,
@@ -1418,7 +1466,8 @@
     "Year": 1863,
     "SpecificHeat": 0.233,
     "NumberofShells": 5,
-    "NumberofValence": 3
+    "NumberofValence": 3,
+    "ElectronicConfiguration": "[Kr] 4d10 5s2 5p1"
   },
   "Tin": {
     "AtomicNumber": 50,
@@ -1447,7 +1496,8 @@
     "Year": null,
     "SpecificHeat": 0.228,
     "NumberofShells": 5,
-    "NumberofValence": 4
+    "NumberofValence": 4,
+    "ElectronicConfiguration": "[Kr] 4d10 5s2 5p2"
   },
   "Antimony": {
     "AtomicNumber": 51,
@@ -1476,7 +1526,8 @@
     "Year": null,
     "SpecificHeat": 0.207,
     "NumberofShells": 5,
-    "NumberofValence": 5
+    "NumberofValence": 5,
+    "ElectronicConfiguration": "[Kr] 4d10 5s2 5p3"
   },
   "Tellurium": {
     "AtomicNumber": 52,
@@ -1505,7 +1556,8 @@
     "Year": 1782,
     "SpecificHeat": 0.202,
     "NumberofShells": 5,
-    "NumberofValence": 6
+    "NumberofValence": 6,
+    "ElectronicConfiguration": "[Kr] 4d10 5s2 5p4"
   },
   "Iodine": {
     "AtomicNumber": 53,
@@ -1534,7 +1586,8 @@
     "Year": 1811,
     "SpecificHeat": 0.214,
     "NumberofShells": 5,
-    "NumberofValence": 7
+    "NumberofValence": 7,
+    "ElectronicConfiguration": "[Kr] 4d10 5s2 5p5"
   },
   "Xenon": {
     "AtomicNumber": 54,
@@ -1563,7 +1616,8 @@
     "Year": 1898,
     "SpecificHeat": 0.158,
     "NumberofShells": 5,
-    "NumberofValence": 8
+    "NumberofValence": 8,
+    "ElectronicConfiguration": "[Kr] 4d10 5s2 5p6"
   },
   "Cesium": {
     "AtomicNumber": 55,
@@ -1592,7 +1646,8 @@
     "Year": 1860,
     "SpecificHeat": 0.242,
     "NumberofShells": 6,
-    "NumberofValence": 1
+    "NumberofValence": 1,
+    "ElectronicConfiguration": "[Xe] 6s1"
   },
   "Barium": {
     "AtomicNumber": 56,
@@ -1621,7 +1676,8 @@
     "Year": 1808,
     "SpecificHeat": 0.204,
     "NumberofShells": 6,
-    "NumberofValence": 2
+    "NumberofValence": 2,
+    "ElectronicConfiguration": "[Xe] 6s2"
   },
   "Lanthanum": {
     "AtomicNumber": 57,
@@ -1650,7 +1706,8 @@
     "Year": 1839,
     "SpecificHeat": 0.195,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 5d1 6s2"
   },
   "Cerium": {
     "AtomicNumber": 58,
@@ -1679,7 +1736,8 @@
     "Year": 1803,
     "SpecificHeat": 0.192,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f1 5d1 6s2"
   },
   "Praseodymium": {
     "AtomicNumber": 59,
@@ -1708,7 +1766,8 @@
     "Year": 1885,
     "SpecificHeat": 0.193,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f3 6s2"
   },
   "Neodymium": {
     "AtomicNumber": 60,
@@ -1737,7 +1796,8 @@
     "Year": 1885,
     "SpecificHeat": 0.19,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f4 6s2"
   },
   "Promethium": {
     "AtomicNumber": 61,
@@ -1766,7 +1826,8 @@
     "Year": 1945,
     "SpecificHeat": null,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f5 6s2"
   },
   "Samarium": {
     "AtomicNumber": 62,
@@ -1795,7 +1856,8 @@
     "Year": 1879,
     "SpecificHeat": 0.197,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f6 6s2"
   },
   "Europium": {
     "AtomicNumber": 63,
@@ -1824,7 +1886,8 @@
     "Year": 1901,
     "SpecificHeat": 0.182,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f7 6s2"
   },
   "Gadolinium": {
     "AtomicNumber": 64,
@@ -1853,7 +1916,8 @@
     "Year": 1880,
     "SpecificHeat": 0.236,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f7 5d1 6s2"
   },
   "Terbium": {
     "AtomicNumber": 65,
@@ -1882,7 +1946,8 @@
     "Year": 1843,
     "SpecificHeat": 0.182,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f9 6s2"
   },
   "Dysprosium": {
     "AtomicNumber": 66,
@@ -1911,7 +1976,8 @@
     "Year": 1886,
     "SpecificHeat": 0.17,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f10 6s2"
   },
   "Holmium": {
     "AtomicNumber": 67,
@@ -1940,7 +2006,8 @@
     "Year": 1878,
     "SpecificHeat": 0.165,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f11 6s2"
   },
   "Erbium": {
     "AtomicNumber": 68,
@@ -1969,7 +2036,8 @@
     "Year": 1843,
     "SpecificHeat": 0.168,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f12 6s2"
   },
   "Thulium": {
     "AtomicNumber": 69,
@@ -1998,7 +2066,8 @@
     "Year": 1879,
     "SpecificHeat": 0.16,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f13 6s2"
   },
   "Ytterbium": {
     "AtomicNumber": 70,
@@ -2027,7 +2096,8 @@
     "Year": 1878,
     "SpecificHeat": 0.155,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f14 6s2"
   },
   "Lutetium": {
     "AtomicNumber": 71,
@@ -2056,7 +2126,8 @@
     "Year": 1907,
     "SpecificHeat": 0.154,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f14 5d1 6s2"
   },
   "Hafnium": {
     "AtomicNumber": 72,
@@ -2085,7 +2156,8 @@
     "Year": 1923,
     "SpecificHeat": 0.144,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f14 5d2 6s2"
   },
   "Tantalum": {
     "AtomicNumber": 73,
@@ -2114,36 +2186,8 @@
     "Year": 1801,
     "SpecificHeat": 0.14,
     "NumberofShells": 6,
-    "NumberofValence": null
-  },
-  "Wolfram": {
-    "AtomicNumber": 74,
-    "Symbol": "W",
-    "AtomicMass": 183.84,
-    "NumberofNeutrons": 110,
-    "NumberofProtons": 74,
-    "NumberofElectrons": 74,
-    "Period": 6,
-    "Group": 6,
-    "Phase": "solid",
-    "Radioactive": null,
-    "Natural": "yes",
-    "Metal": "yes",
-    "Nonmetal": null,
-    "Metalloid": null,
-    "Type": "Transition Metal",
-    "AtomicRadius": 2,
-    "Electronegativity": 2.36,
-    "FirstIonization": 7.864,
-    "Density": 19.3,
-    "MeltingPoint": 3680.15,
-    "BoilingPoint": 5828,
-    "NumberOfIsotopes": 22,
-    "Discoverer": "J. and F. d'Elhuyar",
-    "Year": 1783,
-    "SpecificHeat": 0.132,
-    "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f14 5d3 6s2"
   },
   "Rhenium": {
     "AtomicNumber": 75,
@@ -2172,7 +2216,8 @@
     "Year": 1925,
     "SpecificHeat": 0.137,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f14 5d5 6s2"
   },
   "Osmium": {
     "AtomicNumber": 76,
@@ -2201,7 +2246,8 @@
     "Year": 1803,
     "SpecificHeat": 0.13,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f14 5d6 6s2"
   },
   "Iridium": {
     "AtomicNumber": 77,
@@ -2230,7 +2276,8 @@
     "Year": 1804,
     "SpecificHeat": 0.131,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f14 5d7 6s2"
   },
   "Platinum": {
     "AtomicNumber": 78,
@@ -2259,7 +2306,8 @@
     "Year": 1735,
     "SpecificHeat": 0.133,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f14 5d9 6s1"
   },
   "Gold": {
     "AtomicNumber": 79,
@@ -2288,7 +2336,8 @@
     "Year": null,
     "SpecificHeat": 0.129,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f14 5d10 6s1"
   },
   "Mercury": {
     "AtomicNumber": 80,
@@ -2317,7 +2366,8 @@
     "Year": null,
     "SpecificHeat": 0.14,
     "NumberofShells": 6,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Xe] 4f14 5d10 6s2"
   },
   "Thallium": {
     "AtomicNumber": 81,
@@ -2346,7 +2396,8 @@
     "Year": 1861,
     "SpecificHeat": 0.129,
     "NumberofShells": 6,
-    "NumberofValence": 3
+    "NumberofValence": 3,
+    "ElectronicConfiguration": "[Xe] 4f14 5d10 6s2 6p1"
   },
   "Lead": {
     "AtomicNumber": 82,
@@ -2375,7 +2426,8 @@
     "Year": null,
     "SpecificHeat": 0.129,
     "NumberofShells": 6,
-    "NumberofValence": 4
+    "NumberofValence": 4,
+    "ElectronicConfiguration": "[Xe] 4f14 5d10 6s2 6p2"
   },
   "Bismuth": {
     "AtomicNumber": 83,
@@ -2404,7 +2456,8 @@
     "Year": 1753,
     "SpecificHeat": 0.122,
     "NumberofShells": 6,
-    "NumberofValence": 5
+    "NumberofValence": 5,
+    "ElectronicConfiguration": "[Xe] 4f14 5d10 6s2 6p3"
   },
   "Polonium": {
     "AtomicNumber": 84,
@@ -2433,7 +2486,8 @@
     "Year": 1898,
     "SpecificHeat": null,
     "NumberofShells": 6,
-    "NumberofValence": 6
+    "NumberofValence": 6,
+    "ElectronicConfiguration": "[Xe] 4f14 5d10 6s2 6p4"
   },
   "Astatine": {
     "AtomicNumber": 85,
@@ -2462,7 +2516,8 @@
     "Year": 1940,
     "SpecificHeat": null,
     "NumberofShells": 6,
-    "NumberofValence": 7
+    "NumberofValence": 7,
+    "ElectronicConfiguration": "[Xe] 4f14 5d10 6s2 6p5"
   },
   "Radon": {
     "AtomicNumber": 86,
@@ -2491,7 +2546,8 @@
     "Year": 1900,
     "SpecificHeat": 0.094,
     "NumberofShells": 6,
-    "NumberofValence": 8
+    "NumberofValence": 8,
+    "ElectronicConfiguration": "[Xe] 4f14 5d10 6s2 6p6"
   },
   "Francium": {
     "AtomicNumber": 87,
@@ -2520,7 +2576,8 @@
     "Year": 1939,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": 1
+    "NumberofValence": 1,
+    "ElectronicConfiguration": "[Rn] 7s1"
   },
   "Radium": {
     "AtomicNumber": 88,
@@ -2549,7 +2606,8 @@
     "Year": 1898,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": 2
+    "NumberofValence": 2,
+    "ElectronicConfiguration": "[Rn] 7s2"
   },
   "Actinium": {
     "AtomicNumber": 89,
@@ -2578,7 +2636,8 @@
     "Year": 1899,
     "SpecificHeat": 0.12,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 6d1 7s2"
   },
   "Thorium": {
     "AtomicNumber": 90,
@@ -2607,7 +2666,8 @@
     "Year": 1828,
     "SpecificHeat": 0.113,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 6d2 7s2"
   },
   "Protactinium": {
     "AtomicNumber": 91,
@@ -2636,7 +2696,8 @@
     "Year": 1917,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f2 6d1 7s2"
   },
   "Uranium": {
     "AtomicNumber": 92,
@@ -2665,7 +2726,8 @@
     "Year": 1841,
     "SpecificHeat": 0.116,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f3 6d1 7s2"
   },
   "Neptunium": {
     "AtomicNumber": 93,
@@ -2694,7 +2756,8 @@
     "Year": 1940,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f4 6d1 7s2"
   },
   "Plutonium": {
     "AtomicNumber": 94,
@@ -2723,7 +2786,8 @@
     "Year": 1940,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f6 7s2"
   },
   "Americium": {
     "AtomicNumber": 95,
@@ -2752,7 +2816,8 @@
     "Year": 1944,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f7 7s2"
   },
   "Curium": {
     "AtomicNumber": 96,
@@ -2781,7 +2846,8 @@
     "Year": 1944,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f7 6d1 7s2"
   },
   "Berkelium": {
     "AtomicNumber": 97,
@@ -2810,7 +2876,8 @@
     "Year": 1949,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f9 7s2"
   },
   "Californium": {
     "AtomicNumber": 98,
@@ -2839,7 +2906,8 @@
     "Year": 1950,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f10 7s2"
   },
   "Einsteinium": {
     "AtomicNumber": 99,
@@ -2868,7 +2936,8 @@
     "Year": 1952,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f11 7s2"
   },
   "Fermium": {
     "AtomicNumber": 100,
@@ -2897,7 +2966,8 @@
     "Year": 1953,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f12 7s2"
   },
   "Mendelevium": {
     "AtomicNumber": 101,
@@ -2926,7 +2996,8 @@
     "Year": 1955,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f13 7s2"
   },
   "Nobelium": {
     "AtomicNumber": 102,
@@ -2955,7 +3026,8 @@
     "Year": 1958,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f14 7s2"
   },
   "Lawrencium": {
     "AtomicNumber": 103,
@@ -2984,7 +3056,8 @@
     "Year": 1961,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f14 7s2 7p1"
   },
   "Rutherfordium": {
     "AtomicNumber": 104,
@@ -3013,7 +3086,8 @@
     "Year": 1969,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f14 6d2 7s2"
   },
   "Dubnium": {
     "AtomicNumber": 105,
@@ -3042,7 +3116,8 @@
     "Year": 1970,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f14 6d3 7s2"
   },
   "Seaborgium": {
     "AtomicNumber": 106,
@@ -3071,7 +3146,8 @@
     "Year": 1974,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f14 6d4 7s2"
   },
   "Bohrium": {
     "AtomicNumber": 107,
@@ -3100,7 +3176,8 @@
     "Year": 1981,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f14 6d5 7s2"
   },
   "Hassium": {
     "AtomicNumber": 108,
@@ -3129,7 +3206,8 @@
     "Year": 1983,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f14 6d6 7s2"
   },
   "Meitnerium": {
     "AtomicNumber": 109,
@@ -3158,94 +3236,8 @@
     "Year": 1982,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": null
-  },
-  "Darmstadtium ": {
-    "AtomicNumber": 110,
-    "Symbol": "Ds ",
-    "AtomicMass": 271,
-    "NumberofNeutrons": 161,
-    "NumberofProtons": 110,
-    "NumberofElectrons": 110,
-    "Period": 7,
-    "Group": 10,
-    "Phase": "artificial",
-    "Radioactive": "yes",
-    "Natural": null,
-    "Metal": "yes",
-    "Nonmetal": null,
-    "Metalloid": null,
-    "Type": "Transactinide",
-    "AtomicRadius": null,
-    "Electronegativity": null,
-    "FirstIonization": null,
-    "Density": null,
-    "MeltingPoint": null,
-    "BoilingPoint": null,
-    "NumberOfIsotopes": null,
-    "Discoverer": null,
-    "Year": 1994,
-    "SpecificHeat": null,
-    "NumberofShells": 7,
-    "NumberofValence": null
-  },
-  "Roentgenium ": {
-    "AtomicNumber": 111,
-    "Symbol": "Rg ",
-    "AtomicMass": 272,
-    "NumberofNeutrons": 161,
-    "NumberofProtons": 111,
-    "NumberofElectrons": 111,
-    "Period": 7,
-    "Group": 11,
-    "Phase": "artificial",
-    "Radioactive": "yes",
-    "Natural": null,
-    "Metal": "yes",
-    "Nonmetal": null,
-    "Metalloid": null,
-    "Type": "Transactinide",
-    "AtomicRadius": null,
-    "Electronegativity": null,
-    "FirstIonization": null,
-    "Density": null,
-    "MeltingPoint": null,
-    "BoilingPoint": null,
-    "NumberOfIsotopes": null,
-    "Discoverer": null,
-    "Year": 1994,
-    "SpecificHeat": null,
-    "NumberofShells": 7,
-    "NumberofValence": null
-  },
-  "Copernicium ": {
-    "AtomicNumber": 112,
-    "Symbol": "Cn ",
-    "AtomicMass": 285,
-    "NumberofNeutrons": 173,
-    "NumberofProtons": 112,
-    "NumberofElectrons": 112,
-    "Period": 7,
-    "Group": 12,
-    "Phase": "artificial",
-    "Radioactive": "yes",
-    "Natural": null,
-    "Metal": "yes",
-    "Nonmetal": null,
-    "Metalloid": null,
-    "Type": "Transactinide",
-    "AtomicRadius": null,
-    "Electronegativity": null,
-    "FirstIonization": null,
-    "Density": null,
-    "MeltingPoint": null,
-    "BoilingPoint": null,
-    "NumberOfIsotopes": null,
-    "Discoverer": null,
-    "Year": 1996,
-    "SpecificHeat": null,
-    "NumberofShells": 7,
-    "NumberofValence": null
+    "NumberofValence": null,
+    "ElectronicConfiguration": "[Rn] 5f14 6d7 7s2"
   },
   "Nihonium": {
     "AtomicNumber": 113,
@@ -3274,7 +3266,8 @@
     "Year": 2004,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": 3
+    "NumberofValence": 3,
+    "ElectronicConfiguration": "[Rn] 5f14 6d10 7s2 7p1"
   },
   "Flerovium": {
     "AtomicNumber": 114,
@@ -3303,7 +3296,8 @@
     "Year": 1999,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": 4
+    "NumberofValence": 4,
+    "ElectronicConfiguration": "[Rn] 5f14 6d10 7s2 7p2"
   },
   "Moscovium": {
     "AtomicNumber": 115,
@@ -3332,7 +3326,8 @@
     "Year": 2010,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": 5
+    "NumberofValence": 5,
+    "ElectronicConfiguration": "[Rn] 5f14 6d10 7s2 7p3"
   },
   "Livermorium": {
     "AtomicNumber": 116,
@@ -3361,7 +3356,8 @@
     "Year": 2000,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": 6
+    "NumberofValence": 6,
+    "ElectronicConfiguration": "[Rn] 5f14 6d10 7s2 7p4"
   },
   "Tennessine": {
     "AtomicNumber": 117,
@@ -3390,7 +3386,8 @@
     "Year": 2010,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": 7
+    "NumberofValence": 7,
+    "ElectronicConfiguration": "[Rn] 5f14 6d10 7s2 7p5"
   },
   "Oganesson": {
     "AtomicNumber": 118,
@@ -3419,6 +3416,7 @@
     "Year": 2006,
     "SpecificHeat": null,
     "NumberofShells": 7,
-    "NumberofValence": 8
+    "NumberofValence": 8,
+    "ElectronicConfiguration": "[Rn] 5f14 6d10 7s2 7p6"
   }
 }
