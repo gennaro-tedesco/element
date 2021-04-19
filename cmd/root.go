@@ -3,6 +3,7 @@ package cmd
 import (
 	"os"
 
+	"github.com/c-bata/go-prompt"
 	"github.com/spf13/cobra"
 )
 
@@ -10,12 +11,17 @@ var cwd, _ = os.Getwd()
 
 var rootCmd = &cobra.Command{
 	Use:   "boilit",
-	Args:  cobra.ExactArgs(1),
+	Args:  cobra.MaximumNArgs(1),
 	Short: "the periodic table on the command line",
 	Long:  `the periodic table on the command line`,
 	Run: func(cmd *cobra.Command, args []string) {
 		pt := getPeriodicTableData()
-		printElementData(args[0], pt)
+		if len(args) > 0 {
+			printElementData(args[0], pt)
+		} else {
+			t := prompt.Input("select element: ", completer)
+			printElementData(t, pt)
+		}
 	},
 }
 

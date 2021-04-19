@@ -4,6 +4,7 @@ import (
 	_ "embed"
 	"encoding/json"
 	"fmt"
+	"os"
 	"strings"
 )
 
@@ -42,6 +43,8 @@ func printElementData(inputElement string, periodicTable map[string]interface{})
 		fmt.Printf("MeltingPoint: %v\n", periodicTable[element].(map[string]interface{})["MeltingPoint"])
 		fmt.Printf("BoilingPoint: %v\n", periodicTable[element].(map[string]interface{})["BoilingPoint"])
 		fmt.Printf("FirstIonization: %v\n", periodicTable[element].(map[string]interface{})["FirstIonization"])
+	} else if element == "" {
+		os.Exit(1)
 	} else {
 		fmt.Println("Element", element, "does not exist (yet)")
 	}
