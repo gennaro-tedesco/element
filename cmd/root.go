@@ -19,7 +19,14 @@ var rootCmd = &cobra.Command{
 		if len(args) > 0 {
 			printElementData(args[0], pt)
 		} else {
-			t := prompt.Input("select element: ", completer)
+			t := prompt.Input("select element: ",
+				completer,
+				prompt.OptionSuggestionTextColor(prompt.Color(prompt.ControlD)),
+				prompt.OptionSuggestionBGColor(prompt.Color(prompt.ControlA)),
+				prompt.OptionSelectedSuggestionTextColor(prompt.Color(prompt.LightGray)),
+				prompt.OptionSelectedSuggestionBGColor(prompt.DarkGray),
+				prompt.OptionPreviewSuggestionTextColor(prompt.Color(prompt.ControlD)),
+			)
 			printElementData(t, pt)
 		}
 	},
