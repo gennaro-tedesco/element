@@ -6,6 +6,8 @@ import (
 	"fmt"
 	"os"
 	"strings"
+
+	"github.com/jedib0t/go-pretty/v6/table"
 )
 
 //go:embed pt.json
@@ -28,22 +30,32 @@ func printElementData(inputElement string, periodicTable map[string]interface{})
 		symbol := periodicTable[element].(map[string]interface{})["Symbol"]
 		phase := periodicTable[element].(map[string]interface{})["Phase"]
 		elementType := periodicTable[element].(map[string]interface{})["Type"]
+
 		fmt.Printf("Element: %s (%s) - %s, %s \n\n", element, symbol, phase, strings.ToLower(elementType.(string)))
-		fmt.Printf("Protons: %v\n", periodicTable[element].(map[string]interface{})["NumberofProtons"])
-		fmt.Printf("Electrons: %v\n", periodicTable[element].(map[string]interface{})["NumberofElectrons"])
-		fmt.Printf("Neutrons: %v\n\n", periodicTable[element].(map[string]interface{})["NumberofNeutrons"])
-		fmt.Printf("Period: %v\n", periodicTable[element].(map[string]interface{})["Period"])
-		fmt.Printf("Group: %v\n", periodicTable[element].(map[string]interface{})["Group"])
-		fmt.Printf("ElectronicConfiguration: %v\n\n", periodicTable[element].(map[string]interface{})["ElectronicConfiguration"])
-		fmt.Printf("AtomicMass: %v\n", periodicTable[element].(map[string]interface{})["AtomicMass"])
-		fmt.Printf("AtomicNumber: %v\n", periodicTable[element].(map[string]interface{})["AtomicNumber"])
-		fmt.Printf("AtomicRadius: %v\n", periodicTable[element].(map[string]interface{})["AtomicRadius"])
-		fmt.Printf("Density: %v\n", periodicTable[element].(map[string]interface{})["Density"])
-		fmt.Printf("SpecificHeat: %v\n", periodicTable[element].(map[string]interface{})["SpecificHeat"])
-		fmt.Printf("Electronegativity: %v\n", periodicTable[element].(map[string]interface{})["Electronegativity"])
-		fmt.Printf("MeltingPoint: %v\n", periodicTable[element].(map[string]interface{})["MeltingPoint"])
-		fmt.Printf("BoilingPoint: %v\n", periodicTable[element].(map[string]interface{})["BoilingPoint"])
-		fmt.Printf("FirstIonization: %v\n", periodicTable[element].(map[string]interface{})["FirstIonization"])
+		t := table.NewWriter()
+		t.SetOutputMirror(os.Stdout)
+		t.AppendHeader(table.Row{"Property", "Value"})
+		t.AppendRows([]table.Row{
+			{"Protons", fmt.Sprint(periodicTable[element].(map[string]interface{})["NumberofProtons"])},
+			{"Electrons", fmt.Sprint(periodicTable[element].(map[string]interface{})["NumberofElectrons"])},
+			{"Neutrons", fmt.Sprint(periodicTable[element].(map[string]interface{})["NumberofNeutrons"])},
+			{"Period", fmt.Sprint(periodicTable[element].(map[string]interface{})["Period"])},
+			{"Group", fmt.Sprint(periodicTable[element].(map[string]interface{})["Group"])},
+			{"Electronic configuration", fmt.Sprint(periodicTable[element].(map[string]interface{})["ElectronicConfiguration"])},
+			{"Atomic mass", fmt.Sprint(periodicTable[element].(map[string]interface{})["AtomicMass"])},
+			{"Atomic number", fmt.Sprint(periodicTable[element].(map[string]interface{})["AtomicNumber"])},
+			{"Atomic radius", fmt.Sprint(periodicTable[element].(map[string]interface{})["AtomicRadius"])},
+			{"Density", fmt.Sprint(periodicTable[element].(map[string]interface{})["Density"])},
+			{"Specific heat", fmt.Sprint(periodicTable[element].(map[string]interface{})["SpecificHeat"])},
+			{"Electronegativity", fmt.Sprint(periodicTable[element].(map[string]interface{})["Electronegativity"])},
+			{"Melting point", fmt.Sprint(periodicTable[element].(map[string]interface{})["MeltingPoint"])},
+			{"Boiling point", fmt.Sprint(periodicTable[element].(map[string]interface{})["BoilingPoint"])},
+			{"First ionization", fmt.Sprint(periodicTable[element].(map[string]interface{})["FirstIonization"])},
+		})
+		t.AppendSeparator()
+		t.SetStyle(table.StyleLight)
+		t.Render()
+
 	} else if element == "" {
 		os.Exit(1)
 	} else {
