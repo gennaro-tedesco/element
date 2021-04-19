@@ -45,12 +45,12 @@ func printElementData(inputElement string, periodicTable map[string]interface{})
 			{"Atomic mass", fmt.Sprint(periodicTable[element].(map[string]interface{})["AtomicMass"])},
 			{"Atomic number", fmt.Sprint(periodicTable[element].(map[string]interface{})["AtomicNumber"])},
 			{"Atomic radius", fmt.Sprint(periodicTable[element].(map[string]interface{})["AtomicRadius"])},
-			{"Density", fmt.Sprint(periodicTable[element].(map[string]interface{})["Density"])},
-			{"Specific heat", fmt.Sprint(periodicTable[element].(map[string]interface{})["SpecificHeat"])},
+			{"Density (g/cm^3)", fmt.Sprint(periodicTable[element].(map[string]interface{})["Density"])},
+			{"Specific heat (J/K)", fmt.Sprint(periodicTable[element].(map[string]interface{})["SpecificHeat"])},
 			{"Electronegativity", fmt.Sprint(periodicTable[element].(map[string]interface{})["Electronegativity"])},
-			{"Melting point", fmt.Sprint(periodicTable[element].(map[string]interface{})["MeltingPoint"])},
-			{"Boiling point", fmt.Sprint(periodicTable[element].(map[string]interface{})["BoilingPoint"])},
-			{"First ionization", fmt.Sprint(periodicTable[element].(map[string]interface{})["FirstIonization"])},
+			{"Melting point (K)", fmt.Sprint(periodicTable[element].(map[string]interface{})["MeltingPoint"])},
+			{"Boiling point (K)", fmt.Sprint(periodicTable[element].(map[string]interface{})["BoilingPoint"])},
+			{"First ionization (eV)", fmt.Sprint(periodicTable[element].(map[string]interface{})["FirstIonization"])},
 		})
 		t.AppendSeparator()
 		t.SetStyle(table.StyleLight)
