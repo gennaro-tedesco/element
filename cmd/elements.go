@@ -11,11 +11,11 @@ import (
 )
 
 //go:embed pt.json
-var b []byte
+var ptFile []byte
 
 func getPeriodicTableData() map[string]interface{} {
 	var results map[string]interface{}
-	json.Unmarshal([]byte(b), &results)
+	json.Unmarshal([]byte(ptFile), &results)
 
 	periodicTable := make(map[string]interface{}, len(results))
 	for k, v := range results {
