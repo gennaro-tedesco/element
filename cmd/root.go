@@ -1,13 +1,9 @@
 package cmd
 
 import (
-	"os"
-
 	"github.com/c-bata/go-prompt"
 	"github.com/spf13/cobra"
 )
-
-var cwd, _ = os.Getwd()
 
 var rootCmd = &cobra.Command{
 	Use:   "element",
