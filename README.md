@@ -12,7 +12,7 @@
   <a href="https://golang.org/">
     <img alt="Go" src="https://img.shields.io/badge/go-%2300ADD8.svg?&style=flat&logo=go&logoColor=white"/>
   </a>
-  <a href="https://github.com/gennaro-tedesco/boilit/releases">
+  <a href="https://github.com/gennaro-tedesco/element/releases">
     <img alt="releases" src="https://img.shields.io/github/release/gennaro-tedesco/element"/>
   </a>
 </h2>

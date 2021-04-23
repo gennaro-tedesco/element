@@ -10,7 +10,7 @@ import (
 var cwd, _ = os.Getwd()
 
 var rootCmd = &cobra.Command{
-	Use:   "boilit",
+	Use:   "element",
 	Args:  cobra.MaximumNArgs(1),
 	Short: "the periodic table on the command line",
 	Long:  `the periodic table on the command line`,
