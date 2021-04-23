@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img width="200" height="200" src="logo.png">
+  <img width="220" height="200" src="logo.png">
   <br>
   element
 </h1>
