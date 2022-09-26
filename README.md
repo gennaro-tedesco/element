@@ -26,7 +26,7 @@
 ## Installation
 Go get it!
 ```
-go get -u -v github.com/gennaro-tedesco/element
+go install github.com/gennaro-tedesco/element@latest
 ```
 
 ## Usage
